@@ -1,0 +1,50 @@
+trendin.com production logs        = fs-h2(trendin)
+bflyte production db               = Brands-Live-DB-Master (trendin)
+brand production DB.               = Brands-Live-DB-Master
+live trendin database              = Live-DB1(trendin production database)
+
+Sparrow production                 = Prod App Docker - Host2clone
+
+dev= (code.trendin.com)    test= (brand test app-site-db)
+
+
+bfylte servers                     = 52.76.222.64 Brands-Live-Desktop-App-1
+bfylte servers                     =Brands-Live-Desktop-App-2  52.220.91.77
+bfylte servers                     = 52.77.204.180 Brands-Live-Mobile-App-1
+bfylte servers                     =Brands-Live-Mobile-App-2   52.220.29.52
+
+bflybo production                 =Brands-Live-Bflytebo
+testflamingomom.trendin.com       = brnds test app docker
+flamingomom.Trendin.com           = Brands-Live-Flamingomom
+
+Brands-Live-ES                    = ES brand sites production
+
+sparrow production database        = prod db docker host1
+ flyteBO production                =prod app docker host1clone
+
+
+docker exec prod-sparrow php /opt/app/index.php  feed/brandfeed/ExportToCsv  >> /cron-log/ExportToCsv1.log
+
+http://sparrow.trendin.com/feed/brandfeed/ExportToCsv
+
+create csv file
+LOAD DATA LOCAL INFILE '/home/c2s/statusdata.csv' INTO TABLE t_material_status FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
+
+import sql file
+mysql -u username -p database_name < file.sql
+
+mysqldump -u username -p database tablename > /home/c2s
+
+select user,host from mysql.user;
+
+create user 'username'@'localhost' identified by 'passwd';
+
+Grant all privileges on database. * To 'vinnu'@'localhost';
+
+https://cloudsvn.trendin.com:4434/csvn/repo/showAuthorization
+
+
+
+
+
+
